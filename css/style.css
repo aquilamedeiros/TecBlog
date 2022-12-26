@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet Ms", Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*Cabeçalho*/
+header{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+    padding: 10px;
+}
+
+header span{
+    color: #FFF;
+}
+
+a{
+    color: #FFF;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+a:hover{
+    color: #f7b600;
+    background-color: #FFF;
+}
+
+/*Área Principal*/
+main{
+    border: 1px solid red;
+    width: 950px;
+    margin: 20px auto;
+
+}
+
+#area-postagens{
+    float: left;
+    width: 660px;
+}
+
+#area-lateral{
+    width: 250px;
+    float: right;
+    background-color: aqua;
+    padding: 20px;
+}
+
+/*Postagens*/
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+/*rodapé*/
+footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #CCC;
+}
